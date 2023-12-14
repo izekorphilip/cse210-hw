@@ -5,7 +5,7 @@ public class Story : Histories
 {
     public override void History()
     {
-       
+       Console.WriteLine("A long time ago, a wealthy king had three beautiful daughters. They had everything they wanted offered to them on a platter of gold.  ");
     }
 }
 
@@ -13,7 +13,7 @@ public class Story : Histories
  {
      public override void History()
      {
-    
+     Console.WriteLine("A long time ago, a wealthy king had three beautiful daughters. They had everything they wanted offered to them on a platter of gold.  ");
      }
  }
 

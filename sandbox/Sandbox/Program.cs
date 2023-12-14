@@ -13,11 +13,39 @@ class Program
 
         Histories history;
 
-        if (condition)
+       if (userInput == "1")
         {
-          
+            history = new Story();
         }
-        
+        else if (userInput == "2")
+        {
+            history = new RecentUpdates();
+        }
+        else if (userInput == "3")
+        {
+            history = new PastUdates();
+        }
+            else if (userInput == "4")
+        {
+            history = new NigeriaUpdate();
+        }
+            else if (userInput == "5")
+        {
+            history = new Scriptures();
+        }
+            else if (userInput == "6")
+        {
+            history = new MagazineLatestNews();
+        }
+            else if (userInput == "7")
+        {
+            history = new LdsLatestNews();
+        }
+        else
+        {
+            Console.WriteLine("Invalid input. Exiting program.");
+            return;
+        }
 
         history.History();
     }
