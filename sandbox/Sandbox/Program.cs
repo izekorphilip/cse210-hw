@@ -8,7 +8,16 @@ class Program
         //In this program file, I created an instance of the History class, accept user input
         // to determine which history to execute, and execute the history using polymorphism.
 
-        Console.WriteLine("");
+        Console.WriteLine("Please enter one of the number 1 to 7");
+        Console.WriteLine("1. For Story");
+        Console.WriteLine("2. For Recent Updates");
+        Console.WriteLine("3. For Past Updates");
+        Console.WriteLine("4. For Nigeria Updates");
+        Console.WriteLine("5. For Scriptures");
+        Console.WriteLine("6. For Magazine Latest News");
+        Console.WriteLine("7. For Lds Latest News");
+        Console.WriteLine();
+        Console.Write("Chose a Number ");
         string userInput = Console.ReadLine();
 
         Histories history;
